@@ -113,7 +113,7 @@ body {
   display: flex;
   align-items: center;
   font: italic 1rem helvetica;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   user-select: none;
 }
 .result strong {
@@ -128,7 +128,7 @@ body {
   display: flex;
   align-items: left;
   font: italic 1rem helvetica;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   user-select: none;
 }
 .resposta strong {
@@ -142,7 +142,7 @@ body {
   display: flex;
   align-items: left;
   font: italic 1rem helvetica;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   user-select: none;
 }
 .resposta2 strong {
