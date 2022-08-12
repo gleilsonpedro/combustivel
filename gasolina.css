@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  padding: 10px;
+  font-family: Arial, Helvetica, helvetica;
+  background-color: lightgray;
+}
+
+.container {
+  margin: 1em auto;
+  border-radius: 20px 20px 20px 20px;
+  border: solid 5px;
+  border-color: rgb(30, 144, 255);
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    rgb(30, 144, 255),
+    rgb(173, 216, 230),
+    rgb(30, 144, 255)
+  );
+  width: 35rem;
+  height: 30rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  font: bold 2rem helvetica;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 210px;
+  height: 40px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.input input {
+  width: 210px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  font: bold 1.2rem helvetica;
+  text-align: center;
+}
+
+.input label {
+  font: bold 1.2rem helvetica;
+}
+
+.select {
+  width: 210px;
+  height: 40px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.select label {
+  font: bold 1.2rem helvetica;
+  text-align: center;
+}
+
+.select select {
+  width: 210px;
+  height: 25px;
+  border-radius: 5px;
+  font: bold 1rem helvetica;
+  text-align: center;
+}
+
+.buttonClass {
+  font: bold 1.2rem helvetica;
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
+  height: 25px;
+  border-width: 1px;
+  color: rgb(255, 249, 249);
+  border-color: rgba(209, 188, 19, 1);
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 3px 4px 0px 0px rgba(4, 50, 94, 1);
+  text-shadow: 0px 1px 0px rgba(31, 117, 205, 1);
+  background: linear-gradient(rgba(13, 129, 249, 1), rgba(17, 93, 171, 1));
+}
+
+.buttonClass:hover {
+  background: linear-gradient(rgba(17, 93, 171, 1), rgba(13, 129, 249, 1));
+}
+
+.buttonClass:hover {
+  background: linear-gradient(#378de5, #79bbff);
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  font: italic 1rem helvetica;
+  color: rgb(255, 255, 255);
+  user-select: none;
+}
+.result strong {
+  display: flex;
+  align-items: center;
+  font: bold 1.2rem helvetica;
+  color: rgb(0, 0, 0);
+  user-select: none;
+}
+
+.resposta {
+  display: flex;
+  align-items: left;
+  font: italic 1rem helvetica;
+  color: rgb(255, 255, 255);
+  user-select: none;
+}
+.resposta strong {
+  display: flex;
+  align-items: left;
+  font: bold 1.2rem helvetica;
+  color: rgb(0, 0, 0);
+  user-select: none;
+}
+.resposta2 {
+  display: flex;
+  align-items: left;
+  font: italic 1rem helvetica;
+  color: rgb(255, 255, 255);
+  user-select: none;
+}
+.resposta2 strong {
+  display: flex;
+  align-items: left;
+  font: bold 1.2rem helvetica;
+  color: rgb(0, 0, 0);
+  user-select: none;
+}
+.valores {
+  text-align: center;
+}
